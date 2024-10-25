@@ -1,0 +1,2 @@
+var e=document.querySelectorAll("th"),t=document.querySelector("tbody");e.forEach(function(e,r){e.addEventListener("click",function(){var e;(e=Array.from(t.querySelectorAll("tr"))).sort(function(e,t){var n=e.cells[r].textContent.trim(),o=t.cells[r].textContent.trim();return n.localeCompare(o,void 0,{numeric:!0})}),t.innerHTML="",e.forEach(function(e){return t.appendChild(e)})})});
+//# sourceMappingURL=index.c4fe8c24.js.map
